@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	min-height: 100vh;
+}
+
+.wrapper {
+	background: #131419;
+	min-width: 850px;
+	max-width: 1000px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), -3px -3px 7px rgba(255, 255, 255, 0.05);
+}
+
+.display {
+	width: 85%;
+	margin: 20px 0 30px;
+}
+
+.display textarea {
+	padding: 10px;
+	color: white;
+	width: 100%;
+	border: none;
+	outline: none;
+	background: #131419;
+	border-radius: 8px;
+	font-size: 19px;
+	font-weight: 500;
+	box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset -3px -3px 7px rgba(255, 255, 255, 0.05);
+}
+
+.keys {
+	margin: 10px 0;
+}
+
+.keys input {
+	min-width: 50px;
+	height: 50px;
+	background: #131419;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), -3px -3px 7px rgba(255, 255, 255, 0.05);
+	color: #c7c7c7;
+	border: none;
+	outline: none;
+	margin: 0 10px;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.keys input:focus {
+	box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset -3px -3px 7px rgba(255, 255, 255, 0.05);
+	color: lawngreen;
+}
+
+.space-bar {
+	width: 50%;
+	margin: 20px 0 30px;
+}
+
+input[value=" "] {
+	width: 100%;
+	height: 55px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), -3px -3px 7px rgba(255, 255, 255, 0.05);
+	background: #131419;
+	border: none;
+	outline: none;
+}
+
+input[value=" "]:focus {
+	box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset -3px -3px 7px rgba(255, 255, 255, 0.05);
+}
